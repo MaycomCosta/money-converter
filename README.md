@@ -1,6 +1,7 @@
 # Convertor De Reais
 
-![Convertor de reais](./Assets/result.png?raw=true "Convertor de reais")
+![convert money](https://user-images.githubusercontent.com/81838598/126079308-ac9ac6a7-6ad5-4fb5-a8bd-6177e5fca488.png)
+
 
 > Convertor de reais.
 
@@ -8,7 +9,9 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
+- [x] valor em tempo real
 - [ ] Colocar ele no Ar
+
 
 
 ## 🤝 Colaboradores
@@ -22,14 +25,6 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
         </sub>
       </a>
     </td>
-    <td aling="center">
-        <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/67929579?v=4v=4" width="100px;" alt="Foto do Kauã Marangoni"/><br>
-        <sub>
-          <b>Kauã Marangoni</b>
-        </sub>
-      </a>
-      </td>
   </tr>
 </table>
 
