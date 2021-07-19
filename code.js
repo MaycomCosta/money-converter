@@ -12,7 +12,7 @@ const convertValues = async () => {
 
     const dollar = data.USDBRL.high
     const Euro = data.EURBRL.high
-    const bitCoin = data.BTCBRL.high
+    const bitCoin = data2.ticker.date
 
     // realValueText.innerHTML = `R$ ${getReaisValue}`
 
