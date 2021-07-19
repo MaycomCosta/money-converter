@@ -8,10 +8,11 @@ const convertValues = async () => {
 
     const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then( response => response.json())
     const data2 = await fetch("https://www.mercadobitcoin.net/api/BTC/ticker/").then( response => response.json())
+    console.log(data)
 
     const dollar = data.USDBRL.high
     const Euro = data.EURBRL.high
-    const bitCoin = data2.ticker.date
+    const bitCoin = data.BTCBRL.high
 
     // realValueText.innerHTML = `R$ ${getReaisValue}`
 
