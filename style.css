@@ -10,21 +10,23 @@
 
 body {
     background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
     background-color: #F4F4F4;
     width: 375px;
-    margin: 0 auto;
-    margin-top: 100px;
-    height: 766px;
 }
 
 header {
     background-color: #1B83E2;
     height: 66px;
-    text-align: center;
-    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -108,11 +110,19 @@ section {
     height: 276px;
     border: 1px solid #1B83E2;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .currency-container {
     text-align: center;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
 }
 
 .currency-container h2 {
@@ -127,10 +137,4 @@ section {
     align-items: center;
     color: #1B83E2;
     margin-top: 2px;
-}
-
-.arrow-img {
-    margin: 0 auto;
-    display: block;
-    margin-top: 15px auto;
 }
